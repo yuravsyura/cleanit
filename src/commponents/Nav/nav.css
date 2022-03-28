@@ -1,0 +1,59 @@
+.nav {
+    /*width: 52px;*/
+    /*height: 21px;*/
+    padding-top: 73px;
+    text-decoration: none;
+
+    color: black;
+    text-align: left;
+    font: normal normal bold 18px/21px Raleway;
+    letter-spacing: 0;
+
+
+    /*background: transparent;*/
+
+
+}
+.nav {
+    display: flex;
+    position: absolute;
+    right: 300px;
+}
+.home{
+    width: 52px;
+    height: 21px;
+    text-decoration: none;
+}
+
+
+.book {
+    margin-left: 32px;
+    width: 52px;
+    height: 21px;
+    text-decoration: none;
+
+}
+
+.j_o_t {
+    margin-left: 32px;
+    width: 117px;
+    height: 21px;
+    text-decoration: none;
+
+}
+
+.btn {
+    position: absolute;
+    background: transparent;
+    margin-left: 61px;
+    border:solid 3px ;
+    border-radius: 20px;
+    font: normal normal bold 18px/21px Raleway;
+    color: #ffffff !important;
+    width: 105px;
+    height: 47px;
+
+}
+ .btt {
+     margin-top: -10px;
+ }
