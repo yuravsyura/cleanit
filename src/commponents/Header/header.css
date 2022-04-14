@@ -1,5 +1,6 @@
 
 .logo {
+
     width: 217px;
     height: 75px;
     padding-left: 131px;
@@ -7,14 +8,71 @@
 
 }
 .gradient {
+
     position: absolute;
     right: 0;
 
 }
 .wet_f {
+    display: flex;
     position: absolute;
     right: 0;
     padding-top: 60px;
     padding-right: 82px;
+}
+/*==============================================MEDIA=======================================================*/
+@media screen and (max-width:1068px) {
+    .logo {
+
+        padding-left: 60px;
+        padding-top: 44px;
+
+    }
+
+}
+@media screen and (max-width:1024px) {
+    .logo {
+        width: 217px;
+        height: 75px;
+        padding-left: 60px;
+        padding-top: 44px;
+
+    }
+
+    .wet_ff {
+        position: absolute;
+        right: 0;
+        top: 35px;
+        padding-right: 60px;
+        width: 500px;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .logo0 {
+        width: 150px;
+        height: 50px;
+        /*margin-left: 1px;*/
+        padding-top: 12px;
+
+    }
+
+    .wet_ff {
+        position: absolute;
+        right: 0;
+        top: 65px;
+        padding-right: 20px;
+        width: 400px;
+        height: 400px;
+    }
+    .gradient {
+
+        width: 800px;
+        height: 650px;
+        position: absolute;
+        overflow: hidden;
+        /*right: 0;*/
+    }
 }
 

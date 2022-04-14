@@ -1,0 +1,220 @@
+.ff{
+    /*align-self: center;*/
+}
+.form01 {
+    position: absolute;
+    /*display: block;*/
+    margin-left: 20px;
+    width: 495px;
+    height: 50px;
+
+}
+.table.form01, td {
+    border-bottom: 2px solid #000;
+}
+
+.form001 {
+    /*table-layout: fixed;*/
+    border-collapse:separate;
+    border-spacing: 2px;
+    position: absolute;
+    right: 0;
+    width: 100px;
+    height: 18px;
+    top: 20px;
+    text-align: center;
+    /*border: 1px solid black;*/
+}
+.table.form001,table.form001 td, table.form001 th {
+    /*position: absolute;*/
+    border: 1px solid black;
+
+}
+.form001, .tr {
+    margin-left: 20px;
+
+}
+
+.person01 {
+    background: transparent 0 0 no-repeat padding-box;
+    margin: 10px 1px;
+}
+
+.albina {
+    position: absolute;
+    top: 20px;
+    left: 120px;
+    width: 73px;
+    height: 29px;
+    text-align: left;
+    font: normal normal bold 24px/29px Raleway;
+    letter-spacing: 0;
+    color: #593D3D;
+}
+
+.dp_clean {
+    position: absolute;
+    top: 45px;
+    left: 120px;
+    width: 142px;
+    height: 16px;
+    text-align: left;
+    font: normal normal normal 14px/16px Raleway;
+    letter-spacing: 0;
+    color: #593D3D;
+
+}
+/*=======================2person========================*/
+
+.form002 {
+    /*table-layout: fixed;*/
+    border-collapse:separate;
+    border-spacing: 2px;
+    position: absolute;
+    right: 0;
+    width: 100px;
+    height: 18px;
+    top: 130px;
+    text-align: center;
+    /*border: 1px solid black;*/
+}
+.table.form002,table.form002 td, table.form002 th {
+    /*position: absolute;*/
+    border: 1px solid black;
+
+}
+.form002, .tr {
+    margin-left: 20px;
+
+}
+
+.person2{
+    background: transparent 0 0 no-repeat padding-box;
+    margin: 10px 1px;
+}
+
+.kate {
+    position: absolute;
+    top: 130px;
+    left: 120px;
+    width: 73px;
+    height: 29px;
+    text-align: left;
+    font: normal normal bold 24px/29px Raleway;
+    letter-spacing: 0;
+    color: #593D3D;
+}
+
+.wd_clean {
+    position: absolute;
+    top: 155px;
+    left: 120px;
+    width: 142px;
+    height: 16px;
+    text-align: left;
+    font: normal normal normal 14px/16px Raleway;
+    letter-spacing: 0;
+    color: #593D3D;
+}
+/*=======================3person========================*/
+.form003 {
+    /*table-layout: fixed;*/
+    border-collapse:separate;
+    border-spacing: 2px;
+    position: absolute;
+    right: 0;
+    width: 100px;
+    height: 18px;
+    top: 245px;
+    text-align: center;
+    /*border: 1px solid black;*/
+}
+.table.form003,table.form003 td, table.form003 th {
+    /*position: absolute;*/
+    border: 1px solid black;
+
+}
+.form003, .tr {
+    margin-left: 20px;
+
+}
+
+.person3{
+    background: transparent 0 0 no-repeat padding-box;
+    margin: 10px 1px;
+}
+
+.giselle {
+    position: absolute;
+    top: 250px;
+    left: 120px;
+    width: 73px;
+    height: 29px;
+    text-align: left;
+    font: normal normal bold 24px/29px Raleway;
+    letter-spacing: 0;
+    color: #593D3D;
+}
+
+.rg_clean {
+    position: absolute;
+    top: 275px;
+    left: 120px;
+    width: 142px;
+    height: 16px;
+    text-align: left;
+    font: normal normal normal 14px/16px Raleway;
+    letter-spacing: 0;
+    color: #593D3D;
+}
+/*=======================4person========================*/
+.form004 {
+    /*table-layout: fixed;*/
+    border-collapse:separate;
+    border-spacing: 2px;
+    position: absolute;
+    right: 0;
+    width: 100px;
+    height: 18px;
+    top: 360px;
+    text-align: center;
+    /*border: 1px solid black;*/
+}
+.table.form004,table.form004 td, table.form004 th {
+    /*position: absolute;*/
+    border: 1px solid black;
+
+}
+.form004, .tr {
+    margin-left: 20px;
+
+}
+
+.person4{
+    background: transparent 0 0 no-repeat padding-box;
+    margin: 10px 1px;
+}
+
+.megan {
+    position: absolute;
+    top: 360px;
+    left: 120px;
+    width: 73px;
+    height: 29px;
+    text-align: left;
+    font: normal normal bold 24px/29px Raleway;
+    letter-spacing: 0;
+    color: #593D3D;
+}
+
+.oc_clean {
+    position: absolute;
+    top: 385px;
+    left: 120px;
+    width: 142px;
+    height: 16px;
+    text-align: left;
+    font: normal normal normal 14px/16px Raleway;
+    letter-spacing: 0;
+    color: #593D3D;
+}

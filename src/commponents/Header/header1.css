@@ -51,10 +51,53 @@
     background: transparent linear-gradient(90deg, #8DA3FF 0%, #6781EF 100%) 0 0 no-repeat padding-box;
     border-radius: 30px;
     border-color: transparent;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.btn1:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .desc1 {
     width: 374px;
     height: 142px;
     padding-top: 21px;
+}
+/*==============================================MEDIA======================================*/
+@media screen and (max-width:1068px) {
+    .description {
+        margin-left: 55px;
+
+    }
+}
+@media screen and (max-width:940px){
+    .description {
+        position: absolute;
+        margin-top: 80px;
+        margin-left: 60px;
+
+
+    }
+    .btn1 {
+        margin-top: 60px;
+    }
+
+}
+@media screen and (max-width:800px) {
+
+    .description {
+
+        /*width: 300px;*/
+        position: absolute;
+        margin-top: 80px;
+        margin-left: 40px;
+
+
+    }
+    .btn1 {
+        margin-top: 60px;
+    }
+
+
+
 }

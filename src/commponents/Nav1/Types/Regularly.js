@@ -1,12 +1,18 @@
+
+
 import React from 'react';
 import VAC_CLEAN from '../../../img/vac_clean.png'
 import './regularly.css'
 import Bottom_column from "../../Bottom_column/Bottom_column";
+import GRADIENT2 from "../../../img/Wawe1.png";
 const Regularly = () => {
     return (
         <div>
+            <div className="triangle"/>
+            <div className="gradient01">
+                <img src={GRADIENT2} alt="gradient2"/></div>
             <div className="vac_clean">
-                <img src={VAC_CLEAN} alt="vac_clean"/>
+                <img src={VAC_CLEAN} className="vac_clean001" alt="vac_clean"/>
                 <div className="description2">
                     <a className="rl">REGULARLY</a>
                    <div className="desc3"><a className="desc3">

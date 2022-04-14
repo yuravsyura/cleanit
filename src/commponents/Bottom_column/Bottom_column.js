@@ -1,6 +1,7 @@
 import React from 'react';
 import './bottom_column.css'
 import LOGO from "../../img/logo.png";
+import FillForm from "./FillingForm/FillForm";
 // import MyCalendar from "./MyCalendar";
 
 
@@ -21,7 +22,9 @@ const BottomColumn = () => {
                         <div className="rectangle4">
 
                         </div>
-                        <div className="rectangle5"></div>
+                        <div className="rectangle5">
+                            <FillForm />
+                        </div>
                     </div>
                 {/*<MyCalendar/>*/}
             </div>

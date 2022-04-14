@@ -1,8 +1,12 @@
-import React from 'react';
+import React, {useState} from 'react';
 import "./header1.css"
+import {Link} from 'react-scroll';
 
 
 const Header1 = () => {
+    const [click, setClick] = useState(false)
+    const closeMenu = () => setClick(false)
+
     return (
         <div className="description">
             <a className="always_clean">always clean</a>
@@ -14,7 +18,7 @@ const Header1 = () => {
                 <p/>
                 Is it possible to make it so that your surroundings are clean,
                 but not to create a constant torture of cleaning? Of course it is!</a></div>
-            <div><a href="#book_now" className="book_now"><button className="btn1">Book now</button></a></div>
+            <div><Link to="book_now" spy={true} smooth={true} offset={-40} duration={500}  className="book_now1" onclick={closeMenu}><button className="btn1">Book now</button></Link></div>
         </div>
     );
 };

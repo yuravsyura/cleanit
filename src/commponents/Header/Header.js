@@ -5,7 +5,7 @@ import WET_F from '../../img/wet_f.png'
 import './header.css'
 import Nav from "../Nav/Nav";
 import Header1 from "./Header1";
-import Nav1 from "../Nav1/Nav1";
+
 
 const Header = () => {
     return (
@@ -16,13 +16,13 @@ const Header = () => {
             </div>
             <Nav />
             <div className="logo">
-                <img src={LOGO} alt="logo"/>
+                <img src={LOGO} className="logo0" alt="logo"/>
             </div>
             <div className="wet_f">
-                <img src={WET_F} alt="wet-f"/>
+                <img src={WET_F} className="wet_ff" alt="wet-f"/>
             </div>
             <Header1/>
-            <Nav1/>
+
 
 
 
