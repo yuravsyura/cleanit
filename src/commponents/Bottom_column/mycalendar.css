@@ -1,0 +1,43 @@
+.app {
+
+}
+.react-calendar__navigation__prev-button {
+    left: 0;
+    top: 200px;
+    /*position: absolute;*/
+    border: 1px solid !important;
+    border-radius: 30px !important;
+    background-color: dodgerblue !important;
+    color: white;
+}
+.react-calendar__navigation__prev-button:hover {
+    color: #FFD836;
+
+}
+.react-calendar__navigation__next-button {
+    right: 0;
+    top: 200px;
+    /*position: absolute;*/
+    border: 1px solid !important;
+    border-radius: 30px !important;
+    background: dodgerblue !important;
+    color: white;
+}
+.react-calendar__navigation__next-button:hover {
+    color: #FFD836;
+}
+.react-calendar__navigation__next2-button {
+    display: none;
+}
+.react-calendar__navigation__prev2-button {
+    display: none;
+}
+.calendar-container {
+    padding-top: 22px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.react-calendar {
+    border: none !important;
+}

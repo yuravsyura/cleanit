@@ -1,0 +1,47 @@
+ .modal_wrapper {
+     position: fixed;
+     bottom: 0;
+     width: 100%;
+     background: rgba(0,0,0, .2);
+     backdrop-filter: blur(10px);
+ }
+
+ .modal_wrapper.open {
+     height: 100%;
+     display: block;
+ }
+
+ .modal_wrapper.close {
+     height: 0;
+     display: none;
+ }
+
+ .modal_body {
+     max-width: 500px;
+     background: white;
+     margin: 5% auto auto;
+     padding: 20px;
+     border-radius: 10px;
+     max-height: 100%;
+     overflow-y: scroll ;
+ }
+
+ .modal_body::-webkit-scrollbar {
+     width: 0;
+     background: transparent;
+ }
+
+ .modal_body {
+     -ms-overflow-style: none;
+     scrollbar-width: none;
+ }
+ .modal_close {
+     text-align: right;
+     margin-top: -15px;
+     font-size: 40px;
+     color: gray;
+     cursor: pointer;
+ }
+
+
+

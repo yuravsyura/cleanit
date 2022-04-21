@@ -18,7 +18,7 @@ const Header1 = () => {
                 <p/>
                 Is it possible to make it so that your surroundings are clean,
                 but not to create a constant torture of cleaning? Of course it is!</a></div>
-            <div><Link to="book_now" spy={true} smooth={true} offset={-40} duration={500}  className="book_now1" onclick={closeMenu}><button className="btn1">Book now</button></Link></div>
+            <div><Link to="book_now" spy={true} smooth={true} offset={-40} duration={500}  className="book_now1" onClick={closeMenu}><button className="btn1">Book now</button></Link></div>
         </div>
     );
 };

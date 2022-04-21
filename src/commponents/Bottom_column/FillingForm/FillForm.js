@@ -29,6 +29,7 @@ class FillForm extends Component {
 
 
         return (
+            <React.Fragment>
             <div className="ff">
                 <form onSubmit={this.handleSubmit}>
                 <table className="form01">
@@ -111,10 +112,8 @@ class FillForm extends Component {
                     </tr>
                 </table>
                 </form>
-
-
-
             </div>
+            </React.Fragment>
         );
     }
 }

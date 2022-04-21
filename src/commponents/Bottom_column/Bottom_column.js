@@ -2,7 +2,8 @@ import React from 'react';
 import './bottom_column.css'
 import LOGO from "../../img/logo.png";
 import FillForm from "./FillingForm/FillForm";
-// import MyCalendar from "./MyCalendar";
+import MyCalendar from "./MyCalendar";
+
 
 
 const BottomColumn = () => {
@@ -20,13 +21,13 @@ const BottomColumn = () => {
                          </select>
                         <div className="c_a_d"><a className="c_a_d">Choose available dates:</a></div>
                         <div className="rectangle4">
-
+                            <MyCalendar/>
                         </div>
                         <div className="rectangle5">
                             <FillForm />
                         </div>
                     </div>
-                {/*<MyCalendar/>*/}
+
             </div>
             <div className="logo1">
                 <img src={LOGO} alt="logo"/>

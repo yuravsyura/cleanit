@@ -1,7 +1,10 @@
 *{
   font-family: Raleway, sans-serif;
 }
-
+code {
+  font-family: Raleway, "Courier New",
+  monospace;
+}
 body{
   margin: 0;
   background: #F4F5F7;
@@ -12,6 +15,7 @@ body{
   /*list-style: none;*/
   /*text-decoration: none;*/
 }
+
 
 
 

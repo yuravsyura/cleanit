@@ -26,7 +26,7 @@ const Regularly = () => {
                             Wipe the switches and door handles<br/>
                             We clean mirrors and glass surfaces<br/>
                             We collect and take out the garbage</a></div>
-                    <div><a href="#check_availability" className="check_availability"><button className="btn3">Check availability</button></a></div>
+                    <div><a href="#" className="check_availability"><button className="btn3">Check availability</button></a></div>
                 </div>
             </div>
             <Bottom_column/>

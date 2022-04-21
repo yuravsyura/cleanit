@@ -7,14 +7,17 @@ import Nav from "../Nav/Nav";
 import Header1 from "./Header1";
 
 
-const Header = () => {
+
+const Header = (props) => {
+
     return (
 
         <div className="container">
             <div className="gradient">
                 <img src={GRADIENT} alt="gradient"/>
             </div>
-            <Nav />
+            <Nav modal={props.modal} modal1={props.modal1} />
+            
             <div className="logo">
                 <img src={LOGO} className="logo0" alt="logo"/>
             </div>
