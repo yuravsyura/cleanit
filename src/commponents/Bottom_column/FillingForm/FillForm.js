@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './fillform.css'
 import PERSON1 from "../../../img/person1.png";
 import PERSON2 from "../../../img/person2.png";
@@ -6,38 +6,26 @@ import PERSON3 from "../../../img/person3.png";
 import PERSON4 from "../../../img/person4.png";
 
 
-class FillForm extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {value: ''};
-            this.handleChange = this.handleChange.bind(this);
-            this.handleSubmit = this.handleSubmit.bind(this);
-    }
-    handleChange(event) {
-        this.setState({value: event.target.value});
-    }
+const FillForm = (props) => {
 
-    handleSubmit(event) {
-        alert('Ваш запрос отправлен: ' + this.state.value);
-        event.preventDefault();
-    }
+
     // =============SCROLL========================================
 
 
     // const imgArr = ['./img/person1.png', './img/person2.png', './img/person3.png', './img/person4.png'];
-    render() {
+
 
 
         return (
-            <React.Fragment>
+
             <div className="ff">
-                <form onSubmit={this.handleSubmit}>
+                <form >
                 <table className="form01">
                     <tr>
                         <td>
                             <div className="person1">
                                 <img src={PERSON1} className="person01" alt="person1"/>
-                                {/*imgArr[0];*/}
+
                             </div>
                             <a className="albina">Albina</a>
                             <a className="dp_clean">Deep Cleaning Expert</a>
@@ -113,9 +101,9 @@ class FillForm extends Component {
                 </table>
                 </form>
             </div>
-            </React.Fragment>
+
         );
-    }
+
 }
 
 export default FillForm;

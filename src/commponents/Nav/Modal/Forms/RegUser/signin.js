@@ -1,10 +1,11 @@
-import React, { useRef } from "react";
+import React, {useRef} from "react";
 import { useUserContext } from "../../../../../context/userContext";
+
 
 const Signin = () => {
     const emailRef = useRef();
     const psdRef = useRef();
-    const { signInUser, forgotPassword } = useUserContext();
+    const { signInUser} = useUserContext();
 
     const onSubmit = (e) => {
         e.preventDefault();
@@ -12,14 +13,17 @@ const Signin = () => {
         const password = psdRef.current.value;
         if (email && password) signInUser(email, password);
     };
-
-    const forgotPasswordHandler = () => {
-        const email = emailRef.current.value;
-        if (email)
-            forgotPassword(email).then(() => {
-                emailRef.current.value = "";
-            });
-    };
+    // const [index, setIndex] = useState(false);
+    // const toggleIndex = () => {
+    //     setIndex((prevState) => !prevState);
+    // };
+    // const forgotPasswordHandler = () => {
+    //     const email = emailRef.current.value;
+    //     if (email)
+    //         forgotPassword(email).then(() => {
+    //             emailRef.current.value = "";
+    //         });
+    // };
 
     return (
         <div className="form--1">
@@ -27,8 +31,11 @@ const Signin = () => {
             <form onSubmit={onSubmit}>
                 <input placeholder="Email" type="email" ref={emailRef} />
                 <input placeholder="Password" type="password" ref={psdRef} />
-                <button type="submit">Sign In</button>
-                <p onClick={forgotPasswordHandler}>Forgot Password?</p>
+                <button className="btn8" type="submit">Sign In</button>
+                {/*{!index ? Signin  : <ForgotPass/>}*/}
+                {/*<p onClick={toggleIndex}>*/}
+                {/*    {!index ? "Forgot password?" : "Back"}*/}
+                {/*</p>*/}
             </form>
         </div>
     );

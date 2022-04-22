@@ -21,7 +21,7 @@ export const UserContextProvider = ({ children }) => {
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState("");
 
-    useState(() => {
+     useState(() => {
         setLoading(true);
         const unsubscribe = onAuthStateChanged(auth, (res) => {
             if (res) {
@@ -57,7 +57,7 @@ export const UserContextProvider = ({ children }) => {
     };
 
     const logoutUser = () => {
-        signOut(auth);
+        return signOut(auth);
     };
 
     const forgotPassword = (email) => {
